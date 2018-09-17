@@ -1,8 +1,17 @@
-<h1>TASKLIST</h1>
-  <ol>
-    <% @tasks.each do |task| %>
-    <li>
-      <%= task[:name] %> <%= task[:description] %> <%= task[:completion_date] %>
-    </li>
-  </ol>
-<% end %>
+
+<main>
+  <h1>
+    <%= "TASKLIST" %>
+  </h1>
+    <ol>
+      <h2><%= "Your Tasks" %></h2>
+      <% @tasks.each do |task| %>
+      <li>
+        <%= task[:name] %> <%= task[:description] %> <%= task[:completion_date] %>
+      </li>
+      <% end %>
+    </ol>
+    <footer>
+      <small><%= "copywrite 2018" %></small>
+    </footer>
+</main>
