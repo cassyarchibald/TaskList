@@ -3,6 +3,12 @@
   <h1>
     <%= "TASKLIST" %>
   </h1>
+  <button id="add_task">
+    <h3><%= "Add Task" %></h3>
+  </button>
+  <button id="all_tasks">
+    <h3><%= "All Tasks" %></h3>
+  </button>
     <ol>
       <h2><%= "Your Tasks" %></h2>
       <% @tasks.each do |task| %>
