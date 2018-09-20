@@ -3,17 +3,29 @@
   <h1>
     <%= "TASKLIST" %>
   </h1>
-  <button id="add_task">
-    <h3><%= "Add Task" %></h3>
-  </button>
-  <button id="all_tasks">
-    <h3><%= "All Tasks" %></h3>
-  </button>
+  <nav>
+    <ul>
+      <li>
+        <%= link_to 'Add Task', new_task_path %>
+      </li>
+      <li>
+        <%= link_to 'All Tasks', tasks_path %>
+      </li>
+    </ul>
+  </nav>
     <ol>
       <h2><%= "Your Tasks" %></h2>
       <% @tasks.each do |task| %>
       <li>
         <%= task[:name] %> <%= task[:description] %> <%= task[:completion_date] %>
+        <!-- Add a button or link for deleting task. -->
+        <!-- Will ask user if they are sure they want to delete (new page?) -->
+        <!-- If so, delete the task and return to index -->
+        
+        <!-- Add a button or link for marking a task complete -->
+        <!-- If clicked, task is striked through -->
+        <!-- And database is updated with tasks completion date -->
+
       </li>
       <% end %>
     </ol>
