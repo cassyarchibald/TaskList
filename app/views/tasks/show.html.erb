@@ -5,6 +5,6 @@
   <p><%= @task[:description] %></p>
   <p><%= @task[:completion_date] %> </p>
 <% end %>
-
-<%= link_to "Edit Task", edit_task_path(@task.id) %>
-<%= link_to "Delete Task", destroy_task_path(@task.id) %>
+<!--There might be something wrong with the link. Not sure why it redirects instead of loading form.   -->
+<%= link_to "Edit #{@task.name}", edit_task_path(@task.id) %>
+<%= link_to "Delete #{@task.name}", destroy_task_path(@task.id), method: :delete %>
