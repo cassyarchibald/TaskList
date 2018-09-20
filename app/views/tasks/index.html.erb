@@ -18,15 +18,17 @@
       <% @tasks.each do |task| %>
       <li>
         <%= task[:name] %> <%= task[:description] %> <%= task[:completion_date] %>
-        <%= link_to "Delete", task_path(task.id), method: :delete %> 
         <!-- Add a button or link for deleting task. -->
         <!-- Will ask user if they are sure they want to delete (new page?) -->
         <!-- If so, delete the task and return to index -->
+        <%= link_to "Delete", task_path(task.id), method: :delete, data: {confirm: "Are you sure?"} %>
 
         <!-- Add a button or link for marking a task complete -->
         <!-- If clicked, task is striked through -->
         <!-- And database is updated with tasks completion date -->
-
+          <!-- Will need to check status of completion date. -->
+          <!-- If completion date has not been entered, it's nil and will not have strikethrough -->
+          <!-- If completion date is not nil, should be crossed out  -->
       </li>
       <% end %>
     </ol>
