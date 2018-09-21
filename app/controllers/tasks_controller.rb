@@ -44,7 +44,7 @@ class TasksController < ApplicationController
       redirect_to task_path(@task)
     else
       render 'new'
-    end 
+    end
   end
 
   def destroy
@@ -52,6 +52,12 @@ class TasksController < ApplicationController
     # Destroys an existing book and returns to home page
     task.destroy
     redirect_to root_path
+  end
+
+  def complete
+# Maybe have a render or if statement
+# If user selects complete, update complete /cross out date
+# Maybe this applies a class to that text for the cross out? 
   end
 
 end
