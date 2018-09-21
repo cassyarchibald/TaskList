@@ -20,7 +20,7 @@ class TasksController < ApplicationController
 
   def create
     # Uses post to send form data to the server/save a new book
-    @task = Task.new(name: params[:task][:name], description: params[:task][:description], completion_date: params[:task][:completion_date])
+    @task = Task.new(task_params)
     if @task.save
       redirect_to root_path
     else
@@ -57,7 +57,12 @@ class TasksController < ApplicationController
   def complete
 # Maybe have a render or if statement
 # If user selects complete, update complete /cross out date
-# Maybe this applies a class to that text for the cross out? 
+# Maybe this applies a class to that text for the cross out?
+  end
+
+  private
+  def task_params
+    return params.require(:task).permit(:name, :description, :completion_date)
   end
 
 end
