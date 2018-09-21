@@ -18,10 +18,11 @@
       <% @tasks.each do |task| %>
       <li>
         <%= task[:name] %> <%= task[:description] %> <%= task[:completion_date] %>
-        <!-- Add a button or link for deleting task. -->
-        <!-- Will ask user if they are sure they want to delete (new page?) -->
-        <!-- If so, delete the task and return to index -->
-        <%= link_to "Delete", task_path(task.id), method: :delete, data: {confirm: "Are you sure?"} %>
+        <section id="task_options">
+
+          <%= link_to "Edit", edit_task_path(task.id) %>
+          <%= link_to "Delete", task_path(task.id), method: :delete, data: {confirm: "Are you sure?"} %>
+        </section>
 
         <!-- Add a button or link for marking a task complete -->
         <!-- If clicked, task is striked through -->
