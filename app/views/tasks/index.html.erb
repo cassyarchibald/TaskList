@@ -17,7 +17,9 @@
       <h2><%= "Your Tasks" %></h2>
       <% @tasks.each do |task| %>
       <li>
-        <%= task[:name] %> <%= task[:description] %> <%= task[:completion_date] %>
+        <div class="<%= task[:completion_date].nil? || task[:completion_date].empty? ? 'incomplete' : 'completed'%>">
+          <%= task[:name] %> <%= task[:description] %> <%= task[:completion_date] %>
+        </div>
         <section id="task_options">
           <!-- If user selects completed, saves current timestamp in mark_complete and saves -->
           <%= link_to "Completed", mark_complete_path(task), method: :put, class: "complete" %>

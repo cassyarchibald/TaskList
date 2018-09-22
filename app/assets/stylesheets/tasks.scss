@@ -111,12 +111,13 @@ a {
   padding: 1rem;
 }
 
-.completed {
+div.completed {
   font-weight: bold;
   text-decoration: line-through;
 }
 
-.incomplete {
+div.incomplete:not(#task_options) {
+  background-color: none;
   font-weight: none;
   text-decoration: none;
 }
