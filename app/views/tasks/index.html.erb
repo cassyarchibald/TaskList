@@ -19,7 +19,10 @@
       <li>
         <%= task[:name] %> <%= task[:description] %> <%= task[:completion_date] %>
         <section id="task_options">
-
+          <!-- If user selects completed, saves current timestamp in mark_complete and saves -->
+          <%= link_to "Completed", mark_complete_path(task), method: :put, class: "complete" %>
+          <!-- If user selects to mark incomplete, saves nil to mark_complete and saves -->
+          <%= link_to "Incomplete", mark_incomplete_path(task), method: :put, class: "incomplete" %>
           <%= link_to "Edit", edit_task_path(task.id) %>
           <%= link_to "Delete", task_path(task.id), method: :delete, data: {confirm: "Are you sure?"} %>
         </section>

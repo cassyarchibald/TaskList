@@ -6162,3 +6162,1191 @@ Processing by TasksController#index as HTML
 Completed 200 OK in 140ms (Views: 136.0ms | ActiveRecord: 0.5ms)
 
 
+Started GET "/tasks/" for 127.0.0.1 at 2018-09-21 14:25:52 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 184ms (Views: 179.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tasks/" for 127.0.0.1 at 2018-09-21 14:26:01 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 162ms (Views: 157.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tasks/" for 127.0.0.1 at 2018-09-21 14:26:30 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.6ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 139ms (Views: 134.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/tasks/" for 127.0.0.1 at 2018-09-21 14:26:41 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 134ms (Views: 129.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tasks/" for 127.0.0.1 at 2018-09-21 14:27:03 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 121ms (Views: 116.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tasks/" for 127.0.0.1 at 2018-09-21 14:27:24 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 128ms (Views: 123.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tasks/" for 127.0.0.1 at 2018-09-21 14:27:43 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 151ms (Views: 145.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/tasks/" for 127.0.0.1 at 2018-09-21 14:29:18 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 152ms (Views: 148.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks/" for 127.0.0.1 at 2018-09-21 14:30:09 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 111ms (Views: 106.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tasks/" for 127.0.0.1 at 2018-09-21 14:30:24 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 122ms (Views: 117.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/tasks/" for 127.0.0.1 at 2018-09-21 21:06:46 -0700
+
+SyntaxError - syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...t '/tasks/:id/mark_complete' to: 'tasks#complete' as: 'mark_...
+...                             ^~:
+  config/routes.rb:11:in `'
+
+Started POST "/__better_errors/7a3bd647d7f913c7/variables" for 127.0.0.1 at 2018-09-21 21:06:47 -0700
+Started GET "/tasks/" for 127.0.0.1 at 2018-09-21 21:07:05 -0700
+
+SyntaxError - syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...t '/tasks/:id/mark_complete' to: 'tasks#complete' as: 'mark_...
+...                             ^~:
+  config/routes.rb:11:in `'
+
+Started POST "/__better_errors/e3923dcc3082e80d/variables" for 127.0.0.1 at 2018-09-21 21:07:06 -0700
+Started GET "/tasks/" for 127.0.0.1 at 2018-09-21 21:08:00 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (20.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (54.0ms)
+Completed 200 OK in 303ms (Views: 235.2ms | ActiveRecord: 38.3ms)
+
+
+Started GET "/tasks/8/edit" for 127.0.0.1 at 2018-09-21 21:08:50 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:38
+  Rendering tasks/edit.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (5.9ms)
+  Rendered tasks/edit.html.erb within layouts/application (21.3ms)
+Completed 200 OK in 67ms (Views: 55.9ms | ActiveRecord: 3.6ms)
+
+
+Started PATCH "/tasks/8" for 127.0.0.1 at 2018-09-21 21:09:02 -0700
+Processing by TasksController#update as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NViC8z/02dc7XHuV10ilO2chTgpADFSFQLuT9NTpBOZ3xAf9vQuK0Ujzv6WWZmqpvhbRJ2RgUQUL4GbVy8xjnA==", "task"=>{"name"=>"Birthday card", "description"=>"Send before birthday on saturday", "completion_date"=>"09/20/2018"}, "commit"=>"edit", "id"=>"8"}
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:43
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:44
+  [1m[36mTask Update (6.8ms)[0m  [1m[33mUPDATE "tasks" SET "description" = $1, "updated_at" = $2 WHERE "tasks"."id" = $3[0m  [["description", "Send before birthday on saturday"], ["updated_at", "2018-09-22 04:09:02.009180"], ["id", 8]]
+  ↳ app/controllers/tasks_controller.rb:44
+  [1m[35m (7.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:44
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:45
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:45
+Redirected to http://localhost:3000/tasks/8
+Completed 200 OK in 27ms (ActiveRecord: 16.1ms)
+
+
+Started GET "/tasks/8" for 127.0.0.1 at 2018-09-21 21:09:02 -0700
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:12
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 68ms (Views: 52.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tasks/8" for 127.0.0.1 at 2018-09-21 21:09:11 -0700
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:12
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 35ms (Views: 30.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks/" for 127.0.0.1 at 2018-09-21 21:09:16 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 43ms (Views: 38.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tasks/new" for 127.0.0.1 at 2018-09-21 21:09:23 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (3.9ms)
+  Rendered tasks/new.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 70ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2018-09-21 21:09:36 -0700
+Processing by TasksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tljteZj5EEpY6lO6OlvjbVEkQZPDskhV9S1WewlgG+jwuIh+nwYbjJSUiUameokX7o20NTsYsdnQhljL/NYw8g==", "task"=>{"name"=>"Movies", "description"=>"Go see new HP movie", "completion_date"=>""}, "commit"=>"new"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:26
+  [1m[36mTask Create (6.7ms)[0m  [1m[32mINSERT INTO "tasks" ("name", "description", "completion_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Movies"], ["description", "Go see new HP movie"], ["completion_date", ""], ["created_at", "2018-09-22 04:09:36.689552"], ["updated_at", "2018-09-22 04:09:36.689552"]]
+  ↳ app/controllers/tasks_controller.rb:26
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:26
+Redirected to http://localhost:3000/
+Completed 200 OK in 19ms (ActiveRecord: 12.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 21:09:36 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 73ms (Views: 68.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/tasks/7/edit" for 127.0.0.1 at 2018-09-21 21:09:44 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:38
+  Rendering tasks/edit.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (2.9ms)
+  Rendered tasks/edit.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 58ms (Views: 53.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tasks/new" for 127.0.0.1 at 2018-09-21 21:09:48 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (5.4ms)
+  Rendered tasks/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 70ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/7/edit" for 127.0.0.1 at 2018-09-21 21:30:17 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mTask Load (1.9ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:38
+  Rendering tasks/edit.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (2.8ms)
+  Rendered tasks/edit.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 166ms (Views: 112.6ms | ActiveRecord: 34.2ms)
+
+
+Started PATCH "/tasks/7" for 127.0.0.1 at 2018-09-21 21:30:18 -0700
+Processing by TasksController#update as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"t/HdmpYulNgIV27k2lhv82EHlpltWj+CPKKnNwQymtBaGC1dSx3N0mi1EVcKPuHYlLyxpNa0HOvkYIJpfww/5A==", "task"=>{"name"=>"Schedule interviews", "description"=>"Amazon, Google, Rover, Nordstrom", "completion_date"=>""}, "commit"=>"edit", "id"=>"7"}
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:43
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:44
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:44
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:45
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:45
+Redirected to http://localhost:3000/tasks/7
+Completed 200 OK in 7ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/tasks/7" for 127.0.0.1 at 2018-09-21 21:30:19 -0700
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:12
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 65ms (Views: 58.4ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/tasks/7" for 127.0.0.1 at 2018-09-21 21:30:22 -0700
+Processing by TasksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"SIxVqyXzfiZchktNabVRJz70f214DcSXOGRbYFznXM6O2u/d/27B3lu6q+zSUfO0TFRE3o84utRm7q6y9V3VCQ==", "id"=>"7"}
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:53
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:55
+  [1m[36mTask Destroy (6.5ms)[0m  [1m[31mDELETE FROM "tasks" WHERE "tasks"."id" = $1[0m  [["id", 7]]
+  ↳ app/controllers/tasks_controller.rb:55
+  [1m[35m (12.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:55
+Redirected to http://localhost:3000/
+Completed 302 Found in 29ms (ActiveRecord: 20.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 21:30:22 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 44ms (Views: 40.4ms | ActiveRecord: 0.4ms)
+
+
+Started PUT "/tasks/12/mark_complete" for 127.0.0.1 at 2018-09-21 21:30:26 -0700
+  
+ActionController::RoutingError (No route matches [PUT] "/tasks/12/mark_complete"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:06:26 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (15.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (29.9ms)
+Completed 200 OK in 184ms (Views: 158.8ms | ActiveRecord: 15.2ms)
+
+
+Started PUT "/tasks/8/mark_incomplete" for 127.0.0.1 at 2018-09-21 22:06:29 -0700
+  
+ActionController::RoutingError (No route matches [PUT] "/tasks/8/mark_incomplete"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/tasks/8/mark_incomplete" for 127.0.0.1 at 2018-09-21 22:06:55 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/tasks/8/mark_incomplete"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/tasks/8/" for 127.0.0.1 at 2018-09-21 22:07:17 -0700
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:12
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 97ms (Views: 35.9ms | ActiveRecord: 36.6ms)
+
+
+Started GET "/tasks/" for 127.0.0.1 at 2018-09-21 22:07:23 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 42ms (Views: 38.5ms | ActiveRecord: 0.7ms)
+
+
+Started PUT "/tasks/8/mark_complete" for 127.0.0.1 at 2018-09-21 22:07:26 -0700
+Processing by TasksController#complete as HTML
+  Parameters: {"authenticity_token"=>"DEVSOYllDrBnvGLG1PxvELCKAbB60PdLuikrX2njEHDKE+hPU/ixSGCAgmdvGM2Dwio6A43liQjko96NwFmZtw==", "id"=>"8"}
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:63
+Completed 500 Internal Server Error in 323ms (ActiveRecord: 0.5ms)
+
+
+
+NameError - undefined local variable or method `task' for #<TasksController:0x00007fe0f3b76b10>
+Did you mean?  @task:
+  app/controllers/tasks_controller.rb:64:in `complete'
+
+Started POST "/__better_errors/24d2dec25b59dca2/variables" for 127.0.0.1 at 2018-09-21 22:07:26 -0700
+Started GET "/tasks/8/mark_complete" for 127.0.0.1 at 2018-09-21 22:10:05 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/tasks/8/mark_complete"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/tasks/8/mark_complete" for 127.0.0.1 at 2018-09-21 22:13:46 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/tasks/8/mark_complete"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/tasks/" for 127.0.0.1 at 2018-09-21 22:16:33 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 108ms (Views: 91.4ms | ActiveRecord: 5.1ms)
+
+
+Started PUT "/tasks/8/mark_complete" for 127.0.0.1 at 2018-09-21 22:16:36 -0700
+Processing by TasksController#complete as HTML
+  Parameters: {"authenticity_token"=>"XFvMdhH6KKa7MABEOM//OhdmSqEb46qx1C0le4M6nYCaDXYAy2eXXrwM4OWDK12pZcZxEuzW1PKKp9CpKoAURw==", "id"=>"8"}
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:63
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[36mTask Update (0.6ms)[0m  [1m[33mUPDATE "tasks" SET "updated_at" = $1, "completion_date" = $2 WHERE "tasks"."id" = $3[0m  [["updated_at", "2018-09-22 05:16:36.974448"], ["completion_date", "2018-09-22"], ["id", 8]]
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[35m (12.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:65
+Redirected to http://localhost:3000/
+Completed 302 Found in 30ms (ActiveRecord: 13.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:16:37 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 35ms (Views: 32.6ms | ActiveRecord: 0.4ms)
+
+
+Started PUT "/tasks/12/mark_complete" for 127.0.0.1 at 2018-09-21 22:16:48 -0700
+Processing by TasksController#complete as HTML
+  Parameters: {"authenticity_token"=>"AQwJ5AWHLVoz9Oi3tAd5yKxJjgJrpDV2b/xLHxSYQavHWrOS3xqSojTICBYP49tb3um1sZyRSzUxdr7NvSLIbA==", "id"=>"12"}
+  [1m[36mTask Load (1.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:63
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[36mTask Update (2.3ms)[0m  [1m[33mUPDATE "tasks" SET "updated_at" = $1, "completion_date" = $2 WHERE "tasks"."id" = $3[0m  [["updated_at", "2018-09-22 05:16:48.407191"], ["completion_date", "2018-09-22"], ["id", 12]]
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:65
+Redirected to http://localhost:3000/
+Completed 302 Found in 15ms (ActiveRecord: 5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:16:48 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 48ms (Views: 44.1ms | ActiveRecord: 0.5ms)
+
+
+Started PUT "/tasks/8/mark_complete" for 127.0.0.1 at 2018-09-21 22:16:49 -0700
+Processing by TasksController#complete as HTML
+  Parameters: {"authenticity_token"=>"xQmTW12DvaA31YYD889JLrF89zcmztXTyQuiX+R9dCEDXykthx4CWDDpZqJIK+u9w9zMhNH7q5CXgVeNTcf95g==", "id"=>"8"}
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:63
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:65
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:16:49 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 58ms (Views: 54.9ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/tasks/8/mark_incomplete" for 127.0.0.1 at 2018-09-21 22:16:58 -0700
+Processing by TasksController#incomplete as HTML
+  Parameters: {"authenticity_token"=>"JStcxfb8kstjftdEE8f7Me/4M/dBEkzs8bA09XfoEG3jfeazLGEtM2RCN+WoI1minVgIRLYnMq+vOsEn3lKZqg==", "id"=>"8"}
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:84
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:86
+  [1m[36mTask Update (0.4ms)[0m  [1m[33mUPDATE "tasks" SET "completion_date" = $1, "updated_at" = $2 WHERE "tasks"."id" = $3[0m  [["completion_date", nil], ["updated_at", "2018-09-22 05:16:58.332369"], ["id", 8]]
+  ↳ app/controllers/tasks_controller.rb:86
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:86
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:16:58 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 63ms (Views: 57.8ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/tasks/12/mark_complete" for 127.0.0.1 at 2018-09-21 22:17:05 -0700
+Processing by TasksController#complete as HTML
+  Parameters: {"authenticity_token"=>"JTP+T+RNBESmxMRjNROzK9kypzZa2wGMQEmIFmPG/A/jZUQ5PtC7vKH4JMKO9xG4q5Kcha3uf88ew33Eynx1yA==", "id"=>"12"}
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:63
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:65
+Redirected to http://localhost:3000/
+Completed 302 Found in 17ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:17:05 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 47ms (Views: 43.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tasks/8/edit" for 127.0.0.1 at 2018-09-21 22:17:46 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:38
+  Rendering tasks/edit.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (8.7ms)
+  Rendered tasks/edit.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 59ms (Views: 53.0ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/tasks/8" for 127.0.0.1 at 2018-09-21 22:17:52 -0700
+Processing by TasksController#update as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"axQrveQZo6BieSoMAayPRwMH5S8Q6KgHIBw5+TaHQ3gpiK6zZubwphHW7jxAgkDV2jB6AjSErYdrR8zYKaIkAg==", "task"=>{"name"=>"Birthday card", "description"=>"Send before birthday on Tuesday", "completion_date"=>""}, "commit"=>"edit", "id"=>"8"}
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:43
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:44
+  [1m[36mTask Update (5.9ms)[0m  [1m[33mUPDATE "tasks" SET "description" = $1, "completion_date" = $2, "updated_at" = $3 WHERE "tasks"."id" = $4[0m  [["description", "Send before birthday on Tuesday"], ["completion_date", ""], ["updated_at", "2018-09-22 05:17:52.013174"], ["id", 8]]
+  ↳ app/controllers/tasks_controller.rb:44
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:44
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:45
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:45
+Redirected to http://localhost:3000/tasks/8
+Completed 200 OK in 20ms (ActiveRecord: 12.4ms)
+
+
+Started GET "/tasks/8" for 127.0.0.1 at 2018-09-21 22:17:52 -0700
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:12
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 77ms (Views: 51.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tasks/" for 127.0.0.1 at 2018-09-21 22:26:26 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (6.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 67ms (Views: 57.6ms | ActiveRecord: 6.5ms)
+
+
+Started PUT "/tasks/12/mark_incomplete" for 127.0.0.1 at 2018-09-21 22:26:29 -0700
+Processing by TasksController#incomplete as HTML
+  Parameters: {"authenticity_token"=>"o/2y6Oo3++JxNfou7rjTsq9wMN5+OhzkOm33M6jMc+dlqwieMKpEGnYJGo9VXHEh3dALbYkPYqdk5wLhAXb6IA==", "id"=>"12"}
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:84
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:86
+  [1m[36mTask Update (0.5ms)[0m  [1m[33mUPDATE "tasks" SET "completion_date" = $1, "updated_at" = $2 WHERE "tasks"."id" = $3[0m  [["completion_date", nil], ["updated_at", "2018-09-22 05:26:29.708249"], ["id", 12]]
+  ↳ app/controllers/tasks_controller.rb:86
+  [1m[35m (11.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:86
+Redirected to http://localhost:3000/
+Completed 302 Found in 19ms (ActiveRecord: 13.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:26:29 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 39ms (Views: 35.1ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/tasks/8/mark_complete" for 127.0.0.1 at 2018-09-21 22:26:32 -0700
+Processing by TasksController#complete as HTML
+  Parameters: {"authenticity_token"=>"kfCrtgq0EmZ1G1yNh48vxKmXq1mCpocawaTfzhOSu+FXphHA0CmtnnInvCw8a41X2zeQ6nWT+VmfLiocuigyJg==", "id"=>"8"}
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:63
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[36mTask Update (0.5ms)[0m  [1m[33mUPDATE "tasks" SET "updated_at" = $1, "completion_date" = $2 WHERE "tasks"."id" = $3[0m  [["updated_at", "2018-09-22 05:26:32.140720"], ["completion_date", "2018-09-22"], ["id", 8]]
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:65
+Redirected to http://localhost:3000/
+Completed 302 Found in 9ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:26:32 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 45ms (Views: 41.9ms | ActiveRecord: 0.4ms)
+
+
+Started PUT "/tasks/8/mark_incomplete" for 127.0.0.1 at 2018-09-21 22:26:34 -0700
+Processing by TasksController#incomplete as HTML
+  Parameters: {"authenticity_token"=>"wT/CqRADQZEWq3oLW3fbIXWcffzU2wEqV72br5t5ONkHaXjfyp7+aRGXmqrgk3myBzxGTyPuf2kJN259MsOxHg==", "id"=>"8"}
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:84
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:86
+  [1m[36mTask Update (2.7ms)[0m  [1m[33mUPDATE "tasks" SET "completion_date" = $1, "updated_at" = $2 WHERE "tasks"."id" = $3[0m  [["completion_date", nil], ["updated_at", "2018-09-22 05:26:34.179305"], ["id", 8]]
+  ↳ app/controllers/tasks_controller.rb:86
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:86
+Redirected to http://localhost:3000/
+Completed 302 Found in 14ms (ActiveRecord: 5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:26:34 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 41ms (Views: 37.3ms | ActiveRecord: 0.7ms)
+
+
+Started PUT "/tasks/8/mark_complete" for 127.0.0.1 at 2018-09-21 22:26:36 -0700
+Processing by TasksController#complete as HTML
+  Parameters: {"authenticity_token"=>"80HZmN770/h4z2x5wPY/ewG1lIm9xkchQBkNnf4Qoxg1F2PuBGZsAH/zjNh7Ep3ocxWvOkrzOWIek/hPV6oq3w==", "id"=>"8"}
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:63
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[36mTask Update (0.3ms)[0m  [1m[33mUPDATE "tasks" SET "updated_at" = $1, "completion_date" = $2 WHERE "tasks"."id" = $3[0m  [["updated_at", "2018-09-22 05:26:36.251142"], ["completion_date", "2018-09-22"], ["id", 8]]
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:65
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:26:36 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 44ms (Views: 39.8ms | ActiveRecord: 0.4ms)
+
+
+Started PUT "/tasks/12/mark_complete" for 127.0.0.1 at 2018-09-21 22:26:37 -0700
+Processing by TasksController#complete as HTML
+  Parameters: {"authenticity_token"=>"LMO3bg7rJuc/StUyr1CklYQgro7uE+JS3DjoTcETRnTqlQ0Y1HaZHzh2NZMUtAYG9oCVPRkmnBGCsh2faKnPsw==", "id"=>"12"}
+  [1m[36mTask Load (5.6ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:63
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[36mTask Update (1.7ms)[0m  [1m[33mUPDATE "tasks" SET "updated_at" = $1, "completion_date" = $2 WHERE "tasks"."id" = $3[0m  [["updated_at", "2018-09-22 05:26:37.512485"], ["completion_date", "2018-09-22"], ["id", 12]]
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:65
+Redirected to http://localhost:3000/
+Completed 302 Found in 16ms (ActiveRecord: 9.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:26:37 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 78ms (Views: 75.3ms | ActiveRecord: 0.4ms)
+
+
+Started PUT "/tasks/8/mark_incomplete" for 127.0.0.1 at 2018-09-21 22:26:38 -0700
+Processing by TasksController#incomplete as HTML
+  Parameters: {"authenticity_token"=>"/sPmvfoid7/XpmD8oogzO5VMZDXj8tOMOmwwZbv1dKE4lVzLIL/IR9CagF0ZbJGo5+xfhhTHrc9k5sW3Ek/9Zg==", "id"=>"8"}
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:84
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:86
+  [1m[36mTask Update (6.9ms)[0m  [1m[33mUPDATE "tasks" SET "completion_date" = $1, "updated_at" = $2 WHERE "tasks"."id" = $3[0m  [["completion_date", nil], ["updated_at", "2018-09-22 05:26:38.625194"], ["id", 8]]
+  ↳ app/controllers/tasks_controller.rb:86
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:86
+Redirected to http://localhost:3000/
+Completed 302 Found in 44ms (ActiveRecord: 13.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:26:38 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 53ms (Views: 50.1ms | ActiveRecord: 0.4ms)
+
+
+Started PUT "/tasks/12/mark_complete" for 127.0.0.1 at 2018-09-21 22:26:39 -0700
+Processing by TasksController#complete as HTML
+  Parameters: {"authenticity_token"=>"glPUcEFmHtRGy9HIgKooAek06GumR8i+sNUg1HxmLHhEBW4Gm/uhLEH3MWk7ToqSm5TT2FFytv3uX9UG1dylvw==", "id"=>"12"}
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:63
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:65
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:26:39 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 73ms (Views: 68.1ms | ActiveRecord: 0.4ms)
+
+
+Started PUT "/tasks/12/mark_incomplete" for 127.0.0.1 at 2018-09-21 22:26:40 -0700
+Processing by TasksController#incomplete as HTML
+  Parameters: {"authenticity_token"=>"p1ZN8LXhNu7XOsP8t1Dj3riLZChR+mvRPaAbZXBocWZhAPeGb3yJFtAGI10MtEFNyitfm6bPFZJjKu632dL4oQ==", "id"=>"12"}
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:84
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:86
+  [1m[36mTask Update (1.0ms)[0m  [1m[33mUPDATE "tasks" SET "completion_date" = $1, "updated_at" = $2 WHERE "tasks"."id" = $3[0m  [["completion_date", nil], ["updated_at", "2018-09-22 05:26:40.566662"], ["id", 12]]
+  ↳ app/controllers/tasks_controller.rb:86
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:86
+Redirected to http://localhost:3000/
+Completed 302 Found in 13ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:26:40 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 68ms (Views: 64.2ms | ActiveRecord: 0.5ms)
+
+
+Started PUT "/tasks/8/mark_complete" for 127.0.0.1 at 2018-09-21 22:26:41 -0700
+Processing by TasksController#complete as HTML
+  Parameters: {"authenticity_token"=>"8mJiGZcrgIl5J5gxLoqpQf5Sn3jXxcBWfj56veXkf3I0NNhvTbY/cX4beJCVbgvSjPKkyyDwvhUgtI9vTF72tQ==", "id"=>"8"}
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:63
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[36mTask Update (0.8ms)[0m  [1m[33mUPDATE "tasks" SET "updated_at" = $1, "completion_date" = $2 WHERE "tasks"."id" = $3[0m  [["updated_at", "2018-09-22 05:26:41.460172"], ["completion_date", "2018-09-22"], ["id", 8]]
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:65
+Redirected to http://localhost:3000/
+Completed 302 Found in 15ms (ActiveRecord: 7.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:26:41 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 38ms (Views: 34.6ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/tasks/12/mark_incomplete" for 127.0.0.1 at 2018-09-21 22:26:42 -0700
+Processing by TasksController#incomplete as HTML
+  Parameters: {"authenticity_token"=>"fWQMUiJUJLHf90fu7QQeDgthU8viZncdA4DrvlG0ZwG7MrYk+MmbSdjLp09W4LydecFoeBVTCV5dCh5s+A7uxg==", "id"=>"12"}
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:84
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:86
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:86
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:26:42 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 40ms (Views: 37.1ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/tasks/12/mark_complete" for 127.0.0.1 at 2018-09-21 22:26:44 -0700
+Processing by TasksController#complete as HTML
+  Parameters: {"authenticity_token"=>"xD210IZu2ldg6lAxpXuPQ77pipxk9/FUiWauuZyIFQICaw+mXPNlr2fWsJAeny3QzEmxL5PCjxfX7FtrNTKcxQ==", "id"=>"12"}
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:63
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[36mTask Update (2.6ms)[0m  [1m[33mUPDATE "tasks" SET "updated_at" = $1, "completion_date" = $2 WHERE "tasks"."id" = $3[0m  [["updated_at", "2018-09-22 05:26:44.040497"], ["completion_date", "2018-09-22"], ["id", 12]]
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:65
+Redirected to http://localhost:3000/
+Completed 302 Found in 20ms (ActiveRecord: 8.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:26:44 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 39ms (Views: 36.6ms | ActiveRecord: 0.4ms)
+
+
+Started PUT "/tasks/8/mark_incomplete" for 127.0.0.1 at 2018-09-21 22:26:47 -0700
+Processing by TasksController#incomplete as HTML
+  Parameters: {"authenticity_token"=>"r3kOb0BznqPkl8CXT4ZoQ95l/a0XY37tWz7dqLE6nmZpL7QZmu4hW+OrIDb0YsrQrMXGHuBWAK4FtCh6GIAXoQ==", "id"=>"8"}
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:84
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:86
+  [1m[36mTask Update (0.3ms)[0m  [1m[33mUPDATE "tasks" SET "completion_date" = $1, "updated_at" = $2 WHERE "tasks"."id" = $3[0m  [["completion_date", nil], ["updated_at", "2018-09-22 05:26:47.178083"], ["id", 8]]
+  ↳ app/controllers/tasks_controller.rb:86
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:86
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:26:47 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 39ms (Views: 36.1ms | ActiveRecord: 0.5ms)
+
+
+Started PUT "/tasks/12/mark_complete" for 127.0.0.1 at 2018-09-21 22:26:50 -0700
+Processing by TasksController#complete as HTML
+  Parameters: {"authenticity_token"=>"CMPDdyxj0x+cyZ8WnVGB4vT6M05syss9Ks9Rs/xsaYDOlXkB9v5s55v1f7cmtSNxhloI/Zv/tX50RaRhVdbgRw==", "id"=>"12"}
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:63
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:65
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:26:50 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 43ms (Views: 37.1ms | ActiveRecord: 0.4ms)
+
+
+Started PUT "/tasks/8/mark_complete" for 127.0.0.1 at 2018-09-21 22:26:53 -0700
+Processing by TasksController#complete as HTML
+  Parameters: {"authenticity_token"=>"mQj2+Y2x7A/Cwx+eWkfF+L2otHceN9BK0lmW7RByNsBfXkyPVyxT98X//z/ho2drzwiPxOkCrgmM02M/uci/Bw==", "id"=>"8"}
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:63
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[36mTask Update (1.3ms)[0m  [1m[33mUPDATE "tasks" SET "updated_at" = $1, "completion_date" = $2 WHERE "tasks"."id" = $3[0m  [["updated_at", "2018-09-22 05:26:53.295480"], ["completion_date", "2018-09-22"], ["id", 8]]
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[35m (2.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:65
+Redirected to http://localhost:3000/
+Completed 302 Found in 11ms (ActiveRecord: 4.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:26:53 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 39ms (Views: 35.6ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/tasks/12/mark_incomplete" for 127.0.0.1 at 2018-09-21 22:26:54 -0700
+Processing by TasksController#incomplete as HTML
+  Parameters: {"authenticity_token"=>"Nt6mEpxEY9emcDDIv2CrnK4yMnQfodOjgYPj23oMR37wiBxkRtncL6FM0GkEhAkP3JIJx+iUreDfCRYJ07bOuQ==", "id"=>"12"}
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:84
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:86
+  [1m[36mTask Update (2.9ms)[0m  [1m[33mUPDATE "tasks" SET "completion_date" = $1, "updated_at" = $2 WHERE "tasks"."id" = $3[0m  [["completion_date", nil], ["updated_at", "2018-09-22 05:26:54.512973"], ["id", 12]]
+  ↳ app/controllers/tasks_controller.rb:86
+  [1m[35m (3.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:86
+Redirected to http://localhost:3000/
+Completed 302 Found in 12ms (ActiveRecord: 6.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:26:54 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 38ms (Views: 35.5ms | ActiveRecord: 0.4ms)
+
+
+Started PUT "/tasks/8/mark_complete" for 127.0.0.1 at 2018-09-21 22:26:55 -0700
+Processing by TasksController#complete as HTML
+  Parameters: {"authenticity_token"=>"NzyfW+QAGnuIJeA4OyTakA64yTJ8iCOM5z3mE31dzrnxaiUtPp2lg48ZAJmAwHgDfBjygYu9Xc+5txPB1OdHfg==", "id"=>"8"}
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:63
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:65
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:26:55 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 45ms (Views: 42.6ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/tasks/8/mark_complete" for 127.0.0.1 at 2018-09-21 22:26:56 -0700
+Processing by TasksController#complete as HTML
+  Parameters: {"authenticity_token"=>"r1htwksZnRcCa1s92QWDWbfk7mJJshfV5s9OEThJf69pDte0kYQi7wVXu5xi4SHKxUTV0b6HaZa4RbvDkfP2aA==", "id"=>"8"}
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:63
+  [1m[35m (1.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[35m (2.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:65
+Redirected to http://localhost:3000/
+Completed 302 Found in 11ms (ActiveRecord: 4.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:26:56 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 42ms (Views: 38.9ms | ActiveRecord: 0.4ms)
+
+
+Started PUT "/tasks/8/mark_complete" for 127.0.0.1 at 2018-09-21 22:26:57 -0700
+Processing by TasksController#complete as HTML
+  Parameters: {"authenticity_token"=>"1ZOmmOp8QqUDvPqzNmRI3xNH35XUfPynF+cx24BvAEoTxRzuMOH9XQSAGhKNgOpMYefkJiNJguRJbcQJKdWJjQ==", "id"=>"8"}
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:63
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:65
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:26:57 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 36ms (Views: 33.4ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/tasks/12/mark_complete" for 127.0.0.1 at 2018-09-21 22:27:00 -0700
+Processing by TasksController#complete as HTML
+  Parameters: {"authenticity_token"=>"h49F+BzIchWuUMyT7yJMou+SfxWj091OhftbBD8clR5B2f+OxlXN7alsLDJUxu4xnTJEplTmow3bca7WlqYc2Q==", "id"=>"12"}
+  [1m[36mTask Load (1.1ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:63
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[36mTask Update (0.4ms)[0m  [1m[33mUPDATE "tasks" SET "updated_at" = $1, "completion_date" = $2 WHERE "tasks"."id" = $3[0m  [["updated_at", "2018-09-22 05:27:00.046970"], ["completion_date", "2018-09-22"], ["id", 12]]
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:65
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:27:00 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 41ms (Views: 35.6ms | ActiveRecord: 0.6ms)
+
+
+Started PUT "/tasks/12/mark_complete" for 127.0.0.1 at 2018-09-21 22:27:02 -0700
+Processing by TasksController#complete as HTML
+  Parameters: {"authenticity_token"=>"TRyoARdmFFrVLMj6NF+0B1N9r6oyX69JAQzrggxSJBCLShJ3zfurotIQKFuPuxaUId2UGcVq0Qpfhh5Qpeit1w==", "id"=>"12"}
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:63
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:65
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:27:02 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 33ms (Views: 29.4ms | ActiveRecord: 0.4ms)
+
+
+Started PUT "/tasks/12/mark_complete" for 127.0.0.1 at 2018-09-21 22:27:06 -0700
+Processing by TasksController#complete as HTML
+  Parameters: {"authenticity_token"=>"6IMjJ/k5gafK239NZnWwty9F0STtAmxszHyoXH4Yu5ou1ZlRI6Q+X83nn+zdkRIkXeXqlxo3Ei+S9l2O16IyXQ==", "id"=>"12"}
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:63
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:65
+Redirected to http://localhost:3000/
+Completed 302 Found in 9ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:27:06 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 42ms (Views: 38.5ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/tasks/12/mark_complete" for 127.0.0.1 at 2018-09-21 22:27:07 -0700
+Processing by TasksController#complete as HTML
+  Parameters: {"authenticity_token"=>"wFbAjTCZJvv/URgGOkMfEpVEiMyKq+O9SqP/rWr7GlMGAHr76gSZA/ht+KeBp72B5+Szf32enf4UKQp/w0GTlA==", "id"=>"12"}
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:63
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:65
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:27:07 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 41ms (Views: 37.7ms | ActiveRecord: 0.7ms)
+
+
+Started PUT "/tasks/12/mark_complete" for 127.0.0.1 at 2018-09-21 22:27:08 -0700
+Processing by TasksController#complete as HTML
+  Parameters: {"authenticity_token"=>"AGZ+qHge5tudhSjcg6DPUcWG3PUIx0FBeDnOseiewOLGMMTeooNZI5q5yH04RG3CtybnRv/yPwImsztjQSRJJQ==", "id"=>"12"}
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:63
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:65
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:65
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 22:27:08 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:18
+  Rendered tasks/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 43ms (Views: 36.3ms | ActiveRecord: 0.5ms)
+
+

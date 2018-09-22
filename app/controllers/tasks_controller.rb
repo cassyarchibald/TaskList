@@ -1,3 +1,5 @@
+require 'date'
+
 class TasksController < ApplicationController
 
   def index
@@ -54,11 +56,37 @@ class TasksController < ApplicationController
     redirect_to root_path
   end
 
+  # If user marks a task complete,
+  # Update the completion date from nil to the date saved in updated_at timestamp
+  # Redirect to home page
   def complete
-# Maybe have a render or if statement
-# If user selects complete, update complete /cross out date
-# Maybe this applies a class to that text for the cross out?
-  end
+    @task = Task.find_by(id: params[:id].to_i)
+    @task.completion_date = @task.updated_at.to_date.to_s
+    @task.save
+    redirect_to root_path
+    # @task.mark_complete
+    # If completion date is nil, apply not_completed class
+    # else if completion date is entered, apply completed class
+    # Maybe have a render?
+    # If user selects complete, update task with today's date as a string /cross out date via class
+    # Maybe t his applies a class to that text for the cross out?
+    # if task.mark_complete
+    #   task.completion_date =
+    #   task.completion_date.update(completion_date: params[:task][:completion_date])
+    #   task.save
+    # else
+    #
+    end
+
+# If mark_complete is nil or user selects the option to unmark something completed
+# Update completion date to nil and save
+    def incomplete
+      @task = Task.find_by(id: params[:id].to_i)
+      @task.completion_date = nil
+      @task.save
+      redirect_to root_path
+    end
+
 
   private
   def task_params

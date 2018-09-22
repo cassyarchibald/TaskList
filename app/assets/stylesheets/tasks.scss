@@ -23,7 +23,17 @@ ol {
   flex-direction: column;
   justify-content: space-around;
   border: 1px solid black;
-  border-radius: 10%;
+  border-radius: 20%;
+}
+
+
+li a {
+  text-align: center;
+}
+
+ol a:hover {
+  background-color: black;
+  color: white;
 }
 
 ol h2 {
@@ -52,10 +62,11 @@ nav ul li {
   list-style-type: none;
   border: black 2px solid;
   border-style: outset;
-  border-radius: 30%;
+  border-radius: 40%;
   margin: 1rem;
   padding: 1rem;
   text-align: center;
+  font-weight: bold;
 }
 
 label {
@@ -97,5 +108,15 @@ a {
 }
 
 #task_options a {
-  padding-left: 1rem;
+  padding: 1rem;
+}
+
+.completed {
+  font-weight: bold;
+  text-decoration: line-through;
+}
+
+.incomplete {
+  font-weight: none;
+  text-decoration: none;
 }
