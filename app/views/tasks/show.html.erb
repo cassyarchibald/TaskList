@@ -1,10 +1,15 @@
 <% if @task.nil? %>
   <h1> 404 Not found</h1>
 <% else %>
-  <h1><%= @task[:name] %></h1>
-  <p><%= @task[:description] %></p>
-  <p><%= @task[:completion_date] %> </p>
+  <div class="task_details">
+    <h1><%= @task[:name] %></h1>
+    <p><%= @task[:description] %></p>
+    <p><%= @task[:completion_date] %> </p>
+  </div>
 <% end %>
-<!--There might be something wrong with the link. Not sure why it redirects instead of loading form.   -->
-<%= link_to "Edit #{@task.name}", edit_task_path(@task.id) %>
-<%= link_to "Delete #{@task.name}", destroy_task_path(@task.id), method: :delete %>
+
+<section class="task_options">
+  <%= link_to "Edit #{@task.name}", edit_task_path(@task.id) %>
+  <%= link_to "Delete #{@task.name}", destroy_task_path(@task.id), method: :delete %>
+  <%= link_to "Home", tasks_path %>
+</section>
